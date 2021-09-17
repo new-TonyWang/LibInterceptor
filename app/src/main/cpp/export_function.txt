@@ -1,0 +1,11 @@
+interceptor {
+  global: InterceptFunction;
+        TerminateInterceptor;
+        InitializeInterceptor;
+        *GetGlesProcAddress*;
+        *JNI_OnLoad*;
+  local:
+  *;
+
+};
+
